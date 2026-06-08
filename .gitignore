@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Environment & secrets
+.env
+**/.env
+
+# Temporary files
+.tmp/
+**/.tmp/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
